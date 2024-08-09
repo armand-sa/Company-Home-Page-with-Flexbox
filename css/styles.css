@@ -15,15 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-/* Navigation Offset */
-/* --------------------------------------------- */
-.main-content {
-  position: relative;
-  /* To offset for fixed header. */
-  top: 5.625rem;
-  overflow: hidden;
-}
-
 /* Typography */
 /* --------------------------------------------- */
 h1,
@@ -139,6 +130,7 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
+  background-color: #FAFAF9;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   height: 5.625rem;
   display: flex;
@@ -147,6 +139,7 @@ header {
 
 header > nav {
   width: 90rem;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -156,6 +149,9 @@ header > nav {
 .nav-left > .logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .logo img {
@@ -163,9 +159,45 @@ header > nav {
   margin-right: 1.25rem;
 }
 
+.logo > p {
+  color: #333333;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* Medium */
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.1;
+  font-size: 1.375rem;
+}
+
+.logo > p:hover {
+  /* Styles when hovered */
+  color: #62784C;
+  text-decoration: underline;
+}
+
 .nav-right ul {
   display: flex;
   align-items: center;
+}
+
+.nav-right li:not(:last-of-type) {
+  margin-right: 1.25rem;
+}
+
+.nav-right li > a {
+  text-decoration: none;
+  color: #333333;
+  /* Medium */
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-right li > a:hover {
+  /* Styles when hovered */
+  color: #62784C;
+  text-decoration: underline;
 }
 
 /* --------------------------------------------- */
