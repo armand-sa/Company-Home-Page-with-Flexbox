@@ -52,10 +52,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Box-sizing reset */
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}

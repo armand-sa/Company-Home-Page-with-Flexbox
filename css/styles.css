@@ -1,1 +1,133 @@
+/* --------------------------------------------- */
 /* Global Styles */
+/* --------------------------------------------- */
+
+/* Root */
+html {
+  background-color: #FAFAF9;
+  font-family: "Poppins", sans-serif;
+  /* Light */
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #333333;
+  box-sizing: border-box;
+  /* Delete */
+  margin-left: 50px;
+}
+
+/* Navigation Offset */
+/* --------------------------------------------- */
+.main-content {
+  position: relative;
+  /* To offset for fixed header. */
+  top: 5.625rem;
+  overflow: hidden;
+}
+
+/* Typography */
+/* --------------------------------------------- */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* Bold */
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.1;
+  color: #FAFAF9;
+}
+
+h1 {
+  /* 54 Pixels */
+  font-size: 3.375rem;
+}
+
+h2 {
+  /* 43 Pixels */
+  font-size: 2.6875rem;
+}
+
+h3 {
+  /* 34 Pixels */
+  font-size: 2.125rem;
+}
+
+h4 {
+  /* 27 Pixels */
+  font-size: 1.6875rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+/* Buttons */
+
+/* Buttons Primary */
+/* --------------------------------------------- */
+button.primary {
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #FFF;
+  background-color: #62784C;
+  border: 1px solid #62784C;
+  border-radius: 5px;
+  /* box-shadow: x y blur spread color */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button.primary:hover {
+  /* Styles when hovered */
+  color: #62784C;
+  background-color: #CCD7C1;
+  border: 1px solid #CCD7C1;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+button.primary:active {
+  /* Styles when active */
+  /* More pronounced pressed effect */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  /* Simulates pressing the button down */
+  transform: translateY(2px); 
+}
+
+/* Buttons Secondary */
+/* --------------------------------------------- */
+button.secondary {
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #CCD7C1;
+  background-color: transparent;
+  border: 1px solid #CCD7C1;
+  border-radius: 5px;
+  /* box-shadow: x y blur spread color */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button.secondary:hover {
+  /* Styles when hovered */
+  color: #62784C;
+  border: 1px solid #62784C;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+button.secondary:active {
+  /* Styles when active */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  /* Simulates pressing the button down */
+  transform: translateY(2px);
+}
+
+/* Responsive Images */
+/* --------------------------------------------- */
