@@ -1,4 +1,4 @@
-# Challenge Project: Company Home Page with Flexbox
+# Challenge Project: Company Home Page with `Flexbox`
 
 ## Front-End Engineer Path - Improved Styling with CSS
 
