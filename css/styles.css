@@ -55,6 +55,33 @@ p {
   font-size: 1.125rem;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    /* 40 Pixels */
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    /* 32 Pixels */
+    font-size: 2rem;
+  }
+  
+  h3 {
+    /* 28 Pixels */
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    /* 24 Pixels */
+    font-size: 1.5rem;
+  }
+  
+  p {
+    /* 16 Pixels */
+    font-size: 1rem;
+  }
+}
+
 /* Buttons */
 
 /* Buttons Primary */
@@ -218,16 +245,83 @@ header > nav {
   }
 }
 
-
 /* --------------------------------------------- */
 /* MAIN - Hero */
 /* --------------------------------------------- */
 
 /* Hero Section */
-#home .hero {
+.hero {
   height: 100vh;
   background-image: url(../images/background/elephant.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.left-over-img {
+  position: relative;
+  top: calc(50% + 5.625rem);
+  transform: translateY(-61%);
+  box-sizing: border-box;
+  background-color: rgba(51, 51, 51, 0.9);
+  /* 60px */
+  padding: 3.75rem;
+  max-width: 32.3125rem;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.left-over-img h1 {
+  /* 30 px */
+  margin-bottom: 1.875rem;
+}
+
+.left-over-img p {
+  /* 22px */
+  font-size: 1.375rem;
+  color: #FFF;
+  /* 60 px */
+  margin-bottom: 3.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-over-img {
+    background-color: rgba(51, 51, 51, 0.6);
+    /* 30px */
+    padding: 1.875rem;
+  }
+
+  .left-over-img h1 {
+    /* 15 px */
+    margin-bottom: 0.9375rem;
+  }
+  
+  .left-over-img p {
+    /* 16px */
+    font-size: 1rem;
+    /* 30 px */
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  .left-over-img {
+    background-color: rgba(51, 51, 51, 0.6);
+    /* 30px */
+    padding: 1.875rem;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  .left-over-img h1 {
+    /* 15 px */
+    margin-bottom: 0.9375rem;
+  }
+  
+  .left-over-img p {
+    /* 16px */
+    font-size: 1rem;
+    /* 30 px */
+    margin-bottom: 1.875rem;
+  }
 }
