@@ -55,6 +55,11 @@ p {
   font-size: 1.125rem;
 }
 
+strong {
+  /* Medium */
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 768px) {
   h1 {
     /* 40 Pixels */
@@ -322,6 +327,85 @@ header > nav {
     /* 16px */
     font-size: 1rem;
     /* 30 px */
+    margin-bottom: 1.875rem;
+  }
+}
+
+/* --------------------------------------------- */
+/* MAIN - Mission */
+/* --------------------------------------------- */
+
+#mission {
+  /* 100% */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #333333;
+  text-align: center;
+  color: #FFF;
+}
+
+#mission > article {
+  /* 1440px */
+  max-width: 1440px;
+  /* 60px */
+  margin: 3.75rem auto;
+}
+
+#mission h2 {
+  /* 30px */
+  margin-bottom: 1.875rem;
+}
+
+#mission img {
+  /* 100px */
+  width: 6.25rem;
+  /* 60px */
+  margin-bottom: 3.75rem;
+}
+
+#mission .p-container {
+  /* 60px */
+  margin-bottom: 3.75rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .p-container > p {
+  /* 460px */
+  max-width: 28.75rem;
+}
+
+@media only screen and (max-width: 1379px) {
+  #mission > article {
+    /* Top 30px, Sides 30px */
+    margin: 1.875rem 1.875rem;
+  }
+
+  #mission img {
+    /* 100px */
+    width: 6.25rem;
+    /* 30px */
+    margin-bottom: 1.875rem;
+  }
+
+  #mission .p-container > p:not(:last-of-type) {
+    /* 15px */
+    margin-bottom: 0.9375rem;
+  }
+}
+
+@media only screen and (max-width: 517px) { 
+  #mission img {
+    /* 30px */
+    margin-bottom: 1.875rem;
+  }
+  
+  #mission .p-container {
+    /* 30px */
     margin-bottom: 1.875rem;
   }
 }
