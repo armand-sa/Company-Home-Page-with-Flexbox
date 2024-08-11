@@ -126,8 +126,8 @@ button.secondary {
   padding: 15px 30px;
   font-weight: 600;
   font-size: 1.125rem;
-  color: #CCD7C1;
   background-color: transparent;
+  color: #CCD7C1;
   border: 1px solid #CCD7C1;
   border-radius: 5px;
   /* box-shadow: x y blur spread color */
@@ -432,3 +432,7 @@ header > nav {
     margin-bottom: 1.875rem;
   }
 }
+
+/* --------------------------------------------- */
+/* MAIN - Section Hippo */
+/* --------------------------------------------- */
