@@ -182,15 +182,15 @@ header > nav {
   align-items: center;
 }
 
-.nav-right li:not(:last-of-type) {
+.nav-right li:not(.last) {
   margin-right: 1.25rem;
 }
 
-.nav-right .burger > img {
-  background-color: #62784C;
-  width: 30px;
-}
 
+.nav-right .burger > img {
+  width: 40px;
+  display: none;
+}
 
 .nav-right li > a {
   text-decoration: none;
@@ -205,6 +205,17 @@ header > nav {
   /* Styles when hovered */
   color: #62784C;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-right li:not(:last-of-type) {
+    display: none;
+  }
+
+  .nav-right .burger > img {
+    width: 40px;
+    display: block;
+  }
 }
 
 
