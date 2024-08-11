@@ -186,6 +186,12 @@ header > nav {
   margin-right: 1.25rem;
 }
 
+.nav-right .burger > img {
+  background-color: #62784C;
+  width: 30px;
+}
+
+
 .nav-right li > a {
   text-decoration: none;
   color: #333333;
@@ -200,6 +206,7 @@ header > nav {
   color: #62784C;
   text-decoration: underline;
 }
+
 
 /* --------------------------------------------- */
 /* MAIN - Hero */
