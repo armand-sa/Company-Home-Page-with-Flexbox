@@ -247,6 +247,10 @@ header > nav {
 .nav-right li > a .up-arrow {
   width: auto;
   height: 0.75rem;
+  background-color: #CCD7C1;
+  border-radius: 50%;
+  padding: 2px;
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -733,16 +737,125 @@ header > nav {
   flex-direction: column;
   align-items: center;
   padding: 0 3.75rem;
-  text-align: left;
+  text-align: center;
   background-color: #333333;
+
+}
+
+#team h2 {
+  /* 60px */
+  margin-top: 3.75rem;
 }
 
 #team .team-cards-wrapper {
   width: 100%;
   max-width: 107.5rem; /* Starts at 1720px and shrinks with viewport size */
   margin-top: 3.75rem; /* 60px */
-  margin-bottom: 3.75rem; /* 60px */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.team-card {
+  /* 290px */
+  max-width: 18.125rem;
+  margin-bottom: 3.75rem;
+  border-radius: 5px;
+  background-color: #FAFAF9;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.team-card img {
+  /* 290 */
+  max-width: 18.125rem;
+}
+
+.team-member-title {
+  border-bottom: 1px solid #CCD7C1;
+}
+
+.team-member-title h3 {
+  color: #333333;
+  /* 15px */
+  margin-top: 0.9375rem;
+}
+
+.team-member-title h4 {
+  color: #62784C;
+  /* 15px */
+  margin-top: 0.9375rem;
+  /* 15px */
+  margin-bottom: 0.9375rem;
+}
+
+.team-member-text {
+  /* 138px */
+  height: 8.625rem;
+  /* 15px 30px */
+  margin: 0.9375rem 1.875rem;
+  display: flex;
+  align-items: center;
+}
+
+.team-member-linked-in {
+  border-top: 1px solid #CCD7C1;
+  /* 15px */
+  padding-top: 0.9375rem;
+  /* 15px */
+  padding-bottom: 0.9375rem;
+}
+
+.team-member-linked-in > img {
+  /* 44px */
+  height: 2.75rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-member-linked-in > img:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #CCD7C1;
+}
+
+.team-member-linked-in > img:active {
+  /* Styles when active */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  /* Simulates pressing the button down */
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 768px) {
+  #team {
+    /* Left and right 30px */
+    padding: 0 1.875rem;
+  }
+  
+  #team h2 {
+    /* 30px */
+    margin-top: 1.875rem;
+  }
+  
+  #team .team-cards-wrapper {
+    margin-top: 1.875rem; /* 30px */
+  }
+
+  .team-card {
+    /* 30px */
+    margin-bottom: 1.875rem;
+  }
+
+}
+
+@media only screen and (max-width: 699px) {
+  #team .team-cards-wrapper {
+    justify-content: center;
+  }
+}
+
+
+
 
 
 /* --------------------------------------------- */
