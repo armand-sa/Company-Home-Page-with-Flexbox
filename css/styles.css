@@ -244,6 +244,11 @@ header > nav {
   text-decoration: underline;
 }
 
+.nav-right li > a .up-arrow {
+  width: auto;
+  height: 0.75rem;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     /* Left and right 30px */
