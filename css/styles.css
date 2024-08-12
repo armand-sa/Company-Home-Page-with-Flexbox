@@ -84,6 +84,7 @@ strong {
   p {
     /* 16 Pixels */
     font-size: 1rem;
+    line-height: 1.2;
   }
 }
 
@@ -388,11 +389,6 @@ header > nav {
 }
 
 @media only screen and (max-width: 1379px) {
-  #mission > article {
-    /* Top 30px, Sides 30px */
-    margin: 1.875rem 1.875rem;
-  }
-
   #mission img {
     /* 100px */
     width: 6.25rem;
@@ -402,6 +398,11 @@ header > nav {
 }
 
 @media only screen and (max-width: 768px) {
+  #mission > article {
+    /* Top 30px, Sides 30px */
+    margin: 1.875rem 1.875rem;
+  } 
+
   #mission {
   /* Left and right 30px */
   padding: 0 1.875rem;
@@ -459,3 +460,33 @@ header > nav {
   color: #FFF;
 }
 
+.left-quote {
+  position: absolute;
+  left: 4%;
+  top: 13.5%;
+}
+
+
+.testimonial > p:first-of-type {
+  font-style: italic;
+}
+
+.testimonial > p:last-of-type {
+  /* 30px */
+  margin-top: 1.875rem;
+  /* Medium Font Weight */
+  font-weight: 500;
+  color: #CCD7C1;
+}
+
+@media only screen and (max-width: 1022px) {
+  .right-over-img {
+    background-color: rgba(51, 51, 51, 0.8);
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  .right-over-img {
+    border-radius: 0;
+  }
+}
