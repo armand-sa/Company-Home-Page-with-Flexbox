@@ -707,3 +707,32 @@ header > nav {
     display: none;
   }
 }
+
+/* --------------------------------------------- */
+/* MAIN - Section Leopard */
+/* --------------------------------------------- */
+
+.leopard {
+  height: 100vh;
+  background-image: url(../images/background/leopard.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+/* --------------------------------------------- */
+/* MAIN - Section Lion */
+/* --------------------------------------------- */
+
+.lion {
+  height: 100vh;
+  background-image: url(../images/background/lion.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
