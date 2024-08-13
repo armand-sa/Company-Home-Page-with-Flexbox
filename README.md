@@ -4,7 +4,7 @@
 
 **Link to Live Site:** [Okavango Delta Conservation Alliance]()
 
-![Screenshot of Okavango Delta Conservation Alliance]()
+![Screenshot of Okavango Delta Conservation Alliance](./images/background/website-screenshot.jpg)
 
 ____
 
