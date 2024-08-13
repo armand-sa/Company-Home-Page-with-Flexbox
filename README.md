@@ -2,7 +2,7 @@
 
 ## Front-End Engineer Path - Improved Styling with CSS
 
-**Link to Live Site:** [Okavango Delta Conservation Alliance]()
+**Link to Live Site:** [Okavango Delta Conservation Alliance](https://armand-sa.github.io/Company-Home-Page-with-Flexbox/)
 
 ![Screenshot of Okavango Delta Conservation Alliance](./images/background/website-screenshot.jpg)
 
